@@ -126,15 +126,15 @@ a {
 }
 
 .swiper-slide__1 {
-    background-image: url("/img/11.jpg");
+    background-image: url("../img/11.jpg");
 }
 
 .swiper-slide__2 {
-    background-image: url("/img/12.jpg");
+    background-image: url("../img/12.jpg");
 }
 
 .swiper-slide__3 {
-    background-image: url("/img/13.jpg");
+    background-image: url("../img/13.jpg");
 }
 
 .hero__container {
@@ -221,7 +221,7 @@ a {
 
 .game__content::before {
     content: "";
-    background-image: url("/img/up.png");
+    background-image: url("img/up.png");
     background-repeat: repeat-x;
     position: absolute;
     top: 0;
@@ -231,7 +231,7 @@ a {
 
 .game__content::after {
     content: "";
-    background-image: url("/img/down.png");
+    background-image: url("img/down.png");
     background-repeat: repeat-x;
     position: absolute;
     bottom: 0;
@@ -362,7 +362,7 @@ a {
 }
 
 .checkbox__input:checked + .checkbox__text::before{
-    background-image: url("/img/g.svg");
+    background-image: url("img/g.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
