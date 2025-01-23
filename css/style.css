@@ -221,7 +221,7 @@ a {
 
 .game__content::before {
     content: "";
-    background-image: url("img/up.png");
+    background-image: url("../img/up.png");
     background-repeat: repeat-x;
     position: absolute;
     top: 0;
@@ -231,7 +231,7 @@ a {
 
 .game__content::after {
     content: "";
-    background-image: url("img/down.png");
+    background-image: url("../img/down.png");
     background-repeat: repeat-x;
     position: absolute;
     bottom: 0;
@@ -856,6 +856,13 @@ a {
 
     .but__right__container {
         padding-left: 12px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .game__content {
+        height: 1233px;
     }
 }
 
