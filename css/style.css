@@ -362,7 +362,7 @@ a {
 }
 
 .checkbox__input:checked + .checkbox__text::before{
-    background-image: url("img/g.svg");
+    background-image: url("../img/g.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -834,6 +834,16 @@ a {
         font-size: 40px;
     }
 
+    .social__logo {
+        width: 25px;
+        height: 25px;
+        background-size: cover;
+    }
+
+    .hero__info {
+        right: 0px;
+    }
+
     .game__console__img-768 {
         top: 200px;
         left: 0px;
@@ -841,6 +851,32 @@ a {
     }
 
     .game__form-file {
-        padding: 39px 107px;
+        padding: 39px 70px;
+    }
+
+    .but__right__container {
+        padding-left: 12px;
     }
 }
+
+@media screen and (max-width: 375px) {
+
+    .header__list {
+        gap: 30px;
+    }
+
+    .buy__platforms {
+        grid-column-gap: 56px;
+        grid-row-gap: 40px;
+    }
+
+    .game__form-file {
+        padding: 39px 60px;
+    }
+}
+
+/* @media screen and (max-width: 320px) {
+    .title {
+        font-size: 30px;
+    }
+} */
