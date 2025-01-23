@@ -126,15 +126,15 @@ a {
 }
 
 .swiper-slide__1 {
-    background-image: url("../img/11.jpg");
+    background-image: url("../img/slide1.jpg");
 }
 
 .swiper-slide__2 {
-    background-image: url("../img/12.jpg");
+    background-image: url("../img/slide2.jpg");
 }
 
 .swiper-slide__3 {
-    background-image: url("../img/13.jpg");
+    background-image: url("../img/slide3.jpg");
 }
 
 .hero__container {
